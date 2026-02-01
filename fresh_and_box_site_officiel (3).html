@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fresh and Box – DUO BOX</title>
+  <style>
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background:#f7f7f7; color:#222; }
+    header { background: linear-gradient(135deg,#2ecc71,#3498db); color:white; padding:40px 20px; text-align:center; }
+    header h1 { margin:0; font-size:2.5em; }
+    header p { font-size:1.2em; }
+    nav { background:#222; padding:10px; text-align:center; }
+    nav a { color:white; margin:0 10px; text-decoration:none; font-weight:bold; }
+    section { padding:40px 20px; max-width:1000px; margin:auto; }
+    .product { display:grid; grid-template-columns:1fr 1fr; gap:30px; align-items:center; }
+    .card { background:white; border-radius:12px; padding:25px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+    .price { font-size:2em; color:#27ae60; font-weight:bold; }
+    ul { padding-left:20px; }
+    .team { display:grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap:20px; }
+    footer { background:#222; color:white; text-align:center; padding:20px; }
+    @media (max-width:768px){ .product{ grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Fresh and Box</h1>
+  <p>La nouvelle façon de manger chaud et froid, en même temps</p>
+  <p style="font-size:1.1em;margin-top:10px;"><strong>DUO BOX – Un seul contenant, deux températures, zéro compromis.</strong></p>
+</header>
+
+<nav>
+  <a href="#produit">Produit</a>
+  <a href="#bienfaits">Bienfaits</a>
+  <a href="#entreprise">Entreprise</a>
+  <a href="#equipe">Équipe</a>
+  <a href="#acheter">Acheter</a>
+</nav>
+
+<section id="produit">
+  <h2>Notre produit : DUO BOX</h2>
+  <div class="product">
+    <div class="card">
+      <h3>DUO BOX</h3>
+      <img src="duo-box.png" alt="Prévisualisation DUO BOX" style="width:100%;border-radius:12px;margin:10px 0;" />
+      <p>DUO BOX est un tupperware innovant capable de <strong>chauffer un côté</strong> et de <strong>refroidir l’autre</strong>. Idéal pour conserver un repas complet à la température parfaite.</p>
+      <p class="price">89,99 €</p>
+      <p>Produit disponible prochainement.</p>
+    </div>
+    <div class="card">
+      <h3>Caractéristiques</h3>
+      <ul>
+        <li>Fonction chaud et froid simultanée</li>
+        <li>Design moderne et pratique</li>
+        <li>Facile à transporter</li>
+        <li>Adapté au travail, à l’école et aux déplacements</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="bienfaits">
+  <h2>Pourquoi choisir DUO BOX ?</h2>
+  <div class="card">
+    <ul>
+      <li>Gain de temps au quotidien</li>
+      <li>Repas toujours à la bonne température</li>
+      <li>Confort et praticité</li>
+      <li>Produit innovant et unique</li>
+    </ul>
+  </div>
+</section>
+
+<section id="entreprise">
+  <h2>Notre entreprise</h2>
+  <div class="card">
+    <p><strong>Fresh and Box</strong> est une start-up qui a pour mission de simplifier la vie des consommateurs grâce à des solutions innovantes pour les repas.</p>
+    <p>Nous utilisons des matériaux provenant d’autres entreprises afin de limiter la surproduction et favoriser la collaboration.</p>
+    <p><strong>Estimation de chiffre d’affaires :</strong> 100 000 €</p>
+  </div>
+</section>
+
+<section id="equipe">
+  <h2>Notre équipe</h2>
+  <div class="team">
+    <div class="card">Créateur 1<br/>Compétences professionnelles variées</div>
+    <div class="card">Créateur 2<br/>Compétences professionnelles variées</div>
+    <div class="card">Créateur 3<br/>Compétences professionnelles variées</div>
+    <div class="card">Créateur 4<br/>Compétences professionnelles variées</div>
+    <div class="card">Créateur 5<br/>Compétences professionnelles variées</div>
+  </div>
+  <p>Pour accompagner le développement de DUO BOX, le recrutement d’employés est prévu.</p>
+</section>
+
+<section id="acheter">
+  <h2>Acheter DUO BOX</h2>
+  <div class="product">
+    <div class="card">
+      <h3>DUO BOX</h3>
+      <p class="price">89,99 €</p>
+      <p>🚧 Page d’achat en cours de développement</p>
+      <p>Ce site est une démonstration scolaire. Les paiements ne sont pas encore disponibles.</p>
+      <a href="#panier" style="display:inline-block;padding:12px 20px;border-radius:8px;background:#27ae60;color:white;text-decoration:none;font-weight:bold;">Ajouter au panier</a>
+    </div>
+    <div class="card">
+      <h3>Accéder au site via QR Code</h3>
+      <p>Scanne ce QR code pour accéder au site Fresh and Box :</p>
+      <img src="fresh-and-box-qr.png" alt="QR Code Fresh and Box" style="width:200px;height:200px;" />
+      <p style="font-size:0.9em;">(Lien de démonstration)</p>
+    </div>
+  </div>
+</section>
+
+<section id="panier">
+  <h2>Votre panier</h2>
+  <div class="card">
+    <p><strong>Produit :</strong> DUO BOX</p>
+    <p><strong>Prix :</strong> 89,99 €</p>
+    <p><strong>Livraison :</strong> Offerte</p>
+    <hr/>
+    <p><strong>Total :</strong> 89,99 €</p>
+    <p style="margin-top:15px;">🚧 Ceci est un panier fictif dans le cadre d’un projet scolaire.</p>
+    <button style="padding:12px 20px;border:none;border-radius:8px;background:#3498db;color:white;font-size:1em;">Passer au paiement</button>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Fresh and Box – DUO BOX</p>
+</footer>
+
+</body>
+</html>
